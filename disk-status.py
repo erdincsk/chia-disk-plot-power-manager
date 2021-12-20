@@ -24,9 +24,9 @@ for disk in disks:
 
 print("________________________________________________________________")
 print()
-print("Toplam Disk Sayısı: "+str(len(disks)))
-print("Toplam Bağlı Sayısı: "+str(len(mounted_disks)))
-print("Toplam Bağlı Olmayan Sayısı: "+str(len(unmounted_disks)))
+print(" Disk Sayısı: "+str(len(disks)))
+print(" Bağlı Sayısı: "+str(len(mounted_disks)))
+print(" Bağlı Olmayan Sayısı: "+str(len(unmounted_disks)))
 print()
 print("________________________________________________________________")
 print()
