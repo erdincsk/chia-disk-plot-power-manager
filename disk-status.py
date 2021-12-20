@@ -7,7 +7,7 @@ disks = [	"1_1TB", "2_1TB",
 			"1_16TB", "2_16TB", "3_16TB"
 		]
 
-root_mount_folder = os.path.expanduser('~/plot-disks/')
+root_mount_folder = os.path.expanduser('~/disks/')
 
 mounted_disks = []
 unmounted_disks = []
