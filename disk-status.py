@@ -35,7 +35,9 @@ if ( len(mounted_disks) > 0 ):
 	print("________________________________________________________________")
 	print()
 	for mounted_disk in mounted_disks:
-		print (mounted_disk)
+		if ( "_1TB" in mounted_disks ):
+			print ("1TB")
+			print(mounted_disk)
 
 if ( len(unmounted_disks) > 0 ):
 	print("Bağlı Olmayan Diskler: ")
