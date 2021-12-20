@@ -37,4 +37,5 @@ if ( len(unmounted_disks) > 0 ):
 	for unmounted_disk in unmounted_disks:
 		print (unmounted_disk)
 
- 
+print("\n")
+
