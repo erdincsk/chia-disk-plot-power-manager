@@ -34,9 +34,22 @@ if ( len(mounted_disks) > 0 ):
 	print("Bağlı Diskler: ")
 	print("________________________________________________________________")
 	print()
+
 	for mounted_disk in mounted_disks:
 		if ( "_1TB" in mounted_disk ):
-			print ("1TB")
+			print ("******  1TB  ******")
+			print(mounted_disk)
+		elif ( "_2TB" in mounted_disk ):
+			print ("******  2TB  ******")
+			print(mounted_disk)
+		elif ( "_4TB" in mounted_disk ):
+			print ("******  4TB  ******")
+			print(mounted_disk)
+		elif ( "_8TB" in mounted_disk ):
+			print ("******  8TB  ******")
+			print(mounted_disk)
+		elif ( "_16TB" in mounted_disk ):
+			print ("******  16TB  ******")
 			print(mounted_disk)
 
 if ( len(unmounted_disks) > 0 ):
