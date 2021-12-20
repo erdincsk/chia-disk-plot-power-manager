@@ -28,7 +28,7 @@ print("Toplam Disk Sayısı: "+str(len(disks)))
 print("Toplam Bağlı Sayısı: "+str(len(mounted_disks)))
 print("Toplam Bağlı Olmayan Sayısı: "+str(len(unmounted_disks)))
 print()
-print("***________________________________________________________________")
+print("________________________________________________________________")
 print()
 
 if ( len(unmounted_disks) > 0 ):
